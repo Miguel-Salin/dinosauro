@@ -1,0 +1,43 @@
+*{margin: 0;
+    padding: 0;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 172, 194);
+}
+
+.caixadesapato{ display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 13vh;   
+     margin: 0%;
+     height: 10vh;
+}
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+
+}
+.LEITE{
+    border-radius: 45px;
+    background: linear-gradient(to right,rgb(175, 163, 216), rgba(39, 17, 118, 0.521) );
+    transition: transform 1s;
+}
+
+.LEITE:hover{
+    transform: translateY( -20px);  
+    
+}
+
+div{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 22vh;   
+     margin: 0%;
+     height: 3vh;
+}
